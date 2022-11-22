@@ -7,7 +7,7 @@ public class Main {
         int oneBonus = 100;
         int bonus = recharge / oneBonus;
 
-        if (recharge >= 1000) {
+        if (recharge > 1000) {
             System.out.println("Количество бонусных рублей: " + bonus + " рублей");
             System.out.println("Общий счет: " + (account + bonus) + " рублей");
         } else {
